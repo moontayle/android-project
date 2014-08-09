@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="john.westendarp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="john.westendarp.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.STARTINGPOINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.TextPlay"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.TEXTPLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Email"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.EMAIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Camera"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.CAMERA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Data"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.DATA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.GFX"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.GFX" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.GFXSurface"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.GFXSURFACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.SoundStuff"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.SOUNDSTUFF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Slider"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.SLIDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Tabs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.TABS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.SimpleBrowser"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.SIMPLEBROWSER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.Flipper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.FLIPPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="john.westendarp.SharedPrefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.SHAREDPREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="john.westendarp.SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="john.westendarp.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
