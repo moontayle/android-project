@@ -11,4 +11,4 @@
         android:gravity="center"
         android:text="@string/about_string" />
 
-</LinearLayout>
+</LinearLayout> 
