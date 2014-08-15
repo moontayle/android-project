@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="john.westendarp.Splash"
+            android:name=".Splash"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Menu"
+            android:name=".Menu"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.MENU" />
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.StartingPoint"
+            android:name=".StartingPoint"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.STARTINGPOINT" />
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.TextPlay"
+            android:name=".TextPlay"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.TEXTPLAY" />
@@ -55,7 +55,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Email"
+            android:name=".Email"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.EMAIL" />
@@ -64,7 +64,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Camera"
+            android:name=".Camera"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.CAMERA" />
@@ -73,7 +73,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Data"
+            android:name=".Data"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.DATA" />
@@ -82,7 +82,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.GFX"
+            android:name=".GFX"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.GFX" />
@@ -91,7 +91,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.GFXSurface"
+            android:name=".GFXSurface"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.GFXSURFACE" />
@@ -100,7 +100,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.SoundStuff"
+            android:name=".SoundStuff"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.SOUNDSTUFF" />
@@ -109,7 +109,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Slider"
+            android:name=".Slider"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.SLIDER" />
@@ -118,7 +118,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Tabs"
+            android:name=".Tabs"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.TABS" />
@@ -127,7 +127,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.SimpleBrowser"
+            android:name=".SimpleBrowser"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.SIMPLEBROWSER" />
@@ -136,7 +136,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.Flipper"
+            android:name=".Flipper"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.FLIPPER" />
@@ -145,7 +145,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="john.westendarp.SharedPrefs"
+            android:name=".SharedPrefs"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.SHAREDPREFS" />
@@ -153,15 +153,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
-         <activity
-            android:name="john.westendarp.SQLView"
+        <activity
+            android:name=".SQLView"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="john.westendarp.SQLVIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".HttpExample"
+            android:label="@string/title_activity_http_example" >
         </activity>
     </application>
 

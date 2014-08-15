@@ -52,5 +52,8 @@
     <string name="sql_get_info">Get Information</string>
     <string name="sql_edit_entry">Edit Entry</string>
     <string name="sql_delete_entry">Delete Entry</string>
+    <string name="title_activity_http_example">HttpExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="http_load_data">Loading Data</string>
 
 </resources>
